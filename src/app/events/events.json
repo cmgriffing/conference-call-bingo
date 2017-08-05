@@ -1,0 +1,110 @@
+[
+  {
+    "value": "Hi, who just joined?",
+    "type": "question"
+  },
+  {
+    "value": "Can you email that to everyone?",
+    "type": "question"
+  },
+  {
+    "value": "(someone's name), are you there?",
+    "type": "question"
+  },
+  {
+    "value": "So (faded out) I can (unintelligble) by (cuts out), ok?",
+    "type": "question"
+  },
+  {
+    "value": "Can everyone go on mute?",
+    "type": "question"
+  },
+  {
+    "value": "Can everyone see my screen?",
+    "type": "question"
+  },
+  {
+    "value": "Hi, can you hear me?",
+    "type": "question"
+  },
+  {
+    "value": "Hello? Hello?",
+    "type": "question"
+  },
+  {
+    "value": "Can we take this offline?",
+    "type": "question"
+  },
+  {
+    "value": "Sorry, can you repeat that?",
+    "type": "question"
+  },
+  {
+    "value": "(Sound of someone typing, possibly with a hammer)",
+    "type": "noise"
+  },
+  {
+    "value": "(Loud, painful echo/feedback)",
+    "type": "noise"
+  },
+  {
+    "value": "(Child or animal noises)",
+    "type": "noise"
+  },
+  {
+    "value": "(someone's name), you're still sharing...",
+    "type": "statement"
+  },
+  {
+    "value": "Hey guys, I have to jump on another call",
+    "type": "statement"
+  },
+  {
+    "value": "No, it's still loading.",
+    "type": "statement"
+  },
+  {
+    "value": "Next slide, please.",
+    "type": "statement"
+  },
+  {
+    "value": "Hey guys, I have to jump on another call",
+    "type": "statement"
+  },
+  {
+    "value": "I'm sorry. I was on mute.",
+    "type": "statement"
+  },
+  {
+    "value": "(overtalking), go ahead.",
+    "type": "statement"
+  },
+  {
+    "value": "(Sorry I'm late.)",
+    "type": "statement"
+  },
+  {
+    "value": "Hey guys, I have to jump on another call",
+    "type": "statement"
+  },
+  {
+    "value": "I have a hard stop at...",
+    "type": "statement"
+  },
+  {
+    "value": "I'm sorry. You cut out there.",
+    "type": "statement"
+  },
+  {
+    "value": "I'll have to get back to you.",
+    "type": "statement"
+  },
+  {
+    "value": "Sorry, I'm having connection issues.",
+    "type": "statement"
+  },
+  {
+    "value": "I think there's a lag.",
+    "type": "statement"
+  }
+]
