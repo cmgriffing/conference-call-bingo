@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  height: 90vh;
+}
+
+.bingo-board {
+  display: block;
+  height: 100%;
+}
+
+app-bingo-tile {
+  display: inline-block;
+  height: 20%;
+  width: 20%;
+}

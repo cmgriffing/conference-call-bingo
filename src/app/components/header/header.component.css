@@ -1,0 +1,9 @@
+h1 {
+  display: inline;;
+}
+
+button {
+  float: right;
+  height: 100%;
+  width: 200px;
+}

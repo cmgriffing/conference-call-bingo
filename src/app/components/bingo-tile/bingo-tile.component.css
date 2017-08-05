@@ -1,0 +1,13 @@
+:host {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+.button {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 16px;
+  white-space: initial;
+}

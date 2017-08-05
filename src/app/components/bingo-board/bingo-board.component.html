@@ -1,0 +1,4 @@
+<div class="bingo-board" fxLayout="row" fxLayoutWrap fxFlexFill fxLayoutAlign="stretch">
+  <app-bingo-tile *ngFor="let event of events" [event]="event" fxFlex="20" fxFlexAlign="center" (markChanged)="tileChanged($event)"
+    [marked]="eventChecks.has(event.index)"></app-bingo-tile>
+</div>
