@@ -15,6 +15,7 @@ import { MainComponent } from './pages/main/main.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BingoTileContentDirective } from './components/bingo-tile/bingo-tile-content.directive';
 
+import { BingoService } from './services/bingo.service';
 import { EventsService } from './events/events.service';
 import { EventModalComponent } from './components/event-modal/event-modal.component';
 
@@ -43,7 +44,8 @@ import { EventModalComponent } from './components/event-modal/event-modal.compon
   ],
   providers: [
     TileContentService,
-    EventsService
+    EventsService,
+    BingoService
   ],
   bootstrap: [AppComponent]
 })

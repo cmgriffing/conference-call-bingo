@@ -1,25 +1,41 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { EventsService } from '../../events/events.service';
+import { BingoService } from '../../services/bingo.service';
 
 @Component({
   selector: 'app-bingo-board',
   templateUrl: './bingo-board.component.html',
   styleUrls: ['./bingo-board.component.css']
 })
-export class BingoBoardComponent implements OnInit {
+export class BingoBoardComponent implements OnInit, OnDestroy {
 
   events = [];
   eventIndexes = new Set([]);
   eventChecks = new Set([]);
 
-  constructor(private eventsService: EventsService) { }
+  newBoard$;
+
+  constructor(private eventsService: EventsService, private bingoService: BingoService) { }
 
   ngOnInit() {
     this.refreshTiles();
+    this.newBoard$ = this.bingoService.listenForNewBoard().subscribe(() => {
+      console.log('new board within bingo board');
+      this.refreshTiles();
+    });
+  }
+
+  ngOnDestroy() {
+    if(this.newBoard$) {
+      this.newBoard$.unsubscribe();
+    }
   }
 
   refreshTiles() {
     const eventCount = this.eventsService.getCount();
+    this.eventIndexes.clear();
+    this.eventChecks.clear();
+    this.events = [];
     while (this.eventIndexes.size < 25) {
       const currentCount = this.eventIndexes.size;
       const randomIndex = Math.floor(Math.random() * eventCount);

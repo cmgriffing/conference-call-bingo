@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BingoService } from '../../services/bingo.service';
 
 @Component({
   selector: 'app-header',
@@ -9,13 +10,14 @@ export class HeaderComponent implements OnInit {
 
   count = 0;
 
-  constructor() { }
+  constructor(private bingoService: BingoService) { }
 
   ngOnInit() {
   }
 
   newBoard() {
     console.log('new board');
+    this.bingoService.createNewBoard();
   }
 
 }
