@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdDialogModule } from '@angular/material';
+import { MdButtonModule, MdDialogModule, MdIconModule } from '@angular/material';
 
 import { EventsModule } from './events/events.module';
 
@@ -40,7 +40,8 @@ import { EventModalComponent } from './components/event-modal/event-modal.compon
     EventsModule,
     BrowserAnimationsModule,
     MdButtonModule,
-    MdDialogModule
+    MdDialogModule,
+    MdIconModule
   ],
   providers: [
     TileContentService,

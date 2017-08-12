@@ -7,3 +7,14 @@ button {
   height: 100%;
   width: 200px;
 }
+
+@media(max-width: 480px) {
+  button {
+    width: 60px;
+    min-width: auto;
+  }
+
+  .button-text {
+    display: none;
+  }
+}
