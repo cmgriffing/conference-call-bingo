@@ -45,3 +45,4 @@ Thumbs.db
 *.ngstyle.ts
 *.ngfactory.ts
 *.ngsummary.json
+/locale/
