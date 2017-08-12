@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="ng2.template" datatype="plaintext" xml:space="preserve" source-language="en-us" target-language="cy">
+    <header>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
+    </header>
+    <body>
+      <trans-unit id="b559fffc54d9c6d7ec541b5ef79b4eaad9b31ad8">
+        <source>Hi, who just joined?</source>
+        <target>iojdghao;sijda</target>
+      </trans-unit>
+      <trans-unit id="3a6022f729566d2e50ead637e16d80cd0eae2be1">
+        <source>Can you email that to everyone?</source>
+        <target>aushidgalhsuga;hsdg</target>
+      </trans-unit>
+      <trans-unit id="b0a337da6f728b78c1859a270577a39929491f08">
+        <source>(someone's name), are you there?</source>
+        <target>a;soghja;hsjkga;</target>
+      </trans-unit>
+      <trans-unit id="3c7c6c0d9cdd8649a473abf36bcc7ca63920653b">
+        <source>So (faded out) I can (unintelligble) by (cuts out), ok?</source>
+        <target>asd;fohjgs;dfghjs;d</target>
+      </trans-unit>
+      <trans-unit id="c118ab50df4f374c822f8322ad5ccc355a2e228f">
+        <source>Can everyone go on mute?</source>
+        <target>A;OIDHFGA;OIJFG</target>
+      </trans-unit>
+      <trans-unit id="94eb5d0423a74fe08761620265e1ec8fdae8e1d5">
+        <source>Can everyone see my screen?</source>
+        <target>ioweguweipourwe</target>
+      </trans-unit>
+      <trans-unit id="b2b152e0f66bc17fc0a3b370011ac5a7166e1caf">
+        <source>Hi, can you hear me?</source>
+        <target>adsfiuog gopigy powiufgpadfg</target>
+      </trans-unit>
+      <trans-unit id="3422f43d085e9ea9de2eda29f0b57e06b2bf8828">
+        <source>Hello? Hello?</source>
+        <target>aspdofygp osdgps odfg</target>
+      </trans-unit>
+      <trans-unit id="5215790a81070daad2237b056aef2ac4f89193c8">
+        <source>Can we take this offline?</source>
+        <target>SOPDFIG SOPDIF S</target>
+      </trans-unit>
+      <trans-unit id="02c565adbf1c06014f24cefcf93e0f9a4dc65559">
+        <source>Sorry, can you repeat that?</source>
+        <target>osipdug posiduf psodiug </target>
+      </trans-unit>
+      <trans-unit id="2b8deffc7278295ed4fe0ea32a76108809bfcd3c">
+        <source>(Sound of someone typing, possibly with a hammer)</source>
+        <target>OIPDFUG OPSIDUF </target>
+      </trans-unit>
+      <trans-unit id="4434e70068c95f1648687a7f14a0f36b4cff5f3a">
+        <source>(Loud, painful echo/feedback)</source>
+        <target>EFOIPUG SPOIUG SOPIUFG</target>
+      </trans-unit>
+      <trans-unit id="c1a6a3c31b9deafbae26572bf6fc0ab7d3cbf306">
+        <source>(Child or animal noises)</source>
+        <target>OIFDUG SOIDUFGSOPDIF </target>
+      </trans-unit>
+      <trans-unit id="df9442a7ac6a35383bb37ee5df5c64d0b7c0cd02">
+        <source>(someone's name), you're still sharing...</source>
+        <target>OIUFG SOPIDUGOSPIDU OPSIDUG</target>
+      </trans-unit>
+      <trans-unit id="b55c056c742f64b9d0e342c780c70420bbfac8b6">
+        <source>Hey guys, I have to jump on another call</source>
+        <target>SDFOGIUSODI FG</target>
+      </trans-unit>
+      <trans-unit id="39792887085bf9969fc2bce1dca2938f9e71e226">
+        <source>No, it's still loading.</source>
+        <target>SDOFIUSOPDIFOSPDIFG</target>
+      </trans-unit>
+      <trans-unit id="5180dad9835d54fecbf3809583ae37639871fa63">
+        <source>Next slide, please.</source>
+        <target>ODIUFGSODPIFSOPIDFG OSID FG DFGSO IPUSD</target>
+      </trans-unit>
+      <trans-unit id="fe1b0b2280049c623733827ca028949de6eb1748">
+        <source>I'm sorry. I was on mute.</source>
+        <target>OAIPSDFG SDFGPOISDUFG SDFG </target>
+      </trans-unit>
+      <trans-unit id="b3942786572c68f3ec7e83afcbedc2681515ecad">
+        <source>(overtalking), go ahead.</source>
+        <target>OPIUDFG SOPDIFUS DFGSPDF G</target>
+      </trans-unit>
+      <trans-unit id="8b1db842de33c56b20b07aeeeefc272b79aea4df">
+        <source>(Sorry I'm late.)</source>
+        <target>OPIUDFG SPODIFG SDFGHNSJKDFGKLSDHFGN</target>
+      </trans-unit>
+      <trans-unit id="6efe9c9344b6865ce500d60167cf39819527287e">
+        <source>I have a hard stop at...</source>
+        <target>ioudfgpsoidy sidfugy osiudfgisdouf</target>
+      </trans-unit>
+      <trans-unit id="43be9505981745923c6dd1ecc89dbe51e6bcf1d2">
+        <source>I'm sorry. You cut out there.</source>
+        <target>siudyf sioupd sidfuy siopdy</target>
+      </trans-unit>
+      <trans-unit id="074f2144a2c1dfda275f681043309e9853a3d563">
+        <source>I'll have to get back to you.</source>
+        <target>pdsioug siopuyfg ipsoudg psiodfg</target>
+      </trans-unit>
+      <trans-unit id="92893c0404f8e38265ce82d9a2e1c60914d0792a">
+        <source>Sorry, I'm having connection issues.</source>
+        <target>sdipfug siduopiosduyf sodfi g</target>
+      </trans-unit>
+      <trans-unit id="2abf5b94eb59935d75121174ddad16740ea73818">
+        <source>I think there's a lag.</source>
+        <target>psdiuog isopudg psdiuygpsudfy</target>
+      </trans-unit>
+      <trans-unit id="cb79094defd6072fc7cc4729fdd610332ab91347">
+        <source>Conference Call Bingo</source>
+        <target>spdufg siudyg siopud</target>
+      </trans-unit>
+      <trans-unit id="83da9d2118eaebe02e1c3b23aae92f6bed1eb8cf">
+        <source>New Board</source>
+        <target>sdpfgy spodiupsoidygpsodif</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
