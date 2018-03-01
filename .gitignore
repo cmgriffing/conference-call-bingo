@@ -42,3 +42,7 @@ testem.log
 Thumbs.db
 
 /src/app/events/out
+*.ngstyle.ts
+*.ngfactory.ts
+*.ngsummary.json
+/locale/

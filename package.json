@@ -9,9 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "i18n": "ng-xi18n --i18nFormat=xlf",
-    "serve-i18n": "ng serve --aot --locale cy --i18n-format xlf --i18n-file messages.gibberish.xliff --missing-translation ignore",
-    "build-i18n": "ng build --aot --locale cy --i18n-format xlf --i18n-file messages.gibberish.xliff --missing-translation ignore"
+    "i18n-extract": "ng-xi18n --i18nFormat=xlf",
+    "i18n-build": "for lang in en cy; do ng build --output-path=locale/$lang --aot -prod --bh /conference-call-bingo/locale/$lang/ --i18n-file=i18n/messages.$lang.xliff --i18n-format=xlf --locale=$lang; done",
+    "deploy": "bash deploy.sh"
   },
   "private": true,
   "dependencies": {

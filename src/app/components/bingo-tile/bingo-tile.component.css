@@ -11,3 +11,12 @@
   line-height: 16px;
   white-space: initial;
 }
+
+@media(max-width: 480px) {
+  .button {
+    min-width: auto;
+    line-height: 10px;
+    font-size: 10px;
+    padding: 0 5px;
+  }
+}
