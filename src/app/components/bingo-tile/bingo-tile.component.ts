@@ -1,8 +1,9 @@
 import { Component, OnInit, EventEmitter, Input, Output, ComponentFactoryResolver, AfterViewInit, ViewChild } from '@angular/core';
-import { MdDialog } from '@angular/material';
+import { MatDialog } from '@angular/material';
 
 import { EventModalComponent } from './../event-modal/event-modal.component';
 import { BingoTileContentDirective } from './bingo-tile-content.directive';
+import { ElementRef } from '@angular/core/src/linker/element_ref';
 
 @Component({
   selector: 'app-bingo-tile',
@@ -23,12 +24,13 @@ export class BingoTileComponent implements OnInit, AfterViewInit {
   @Output()
   markChanged = new EventEmitter();
 
-  @ViewChild(BingoTileContentDirective) content: BingoTileContentDirective;
+  @ViewChild(BingoTileContentDirective)
+  content: BingoTileContentDirective;
 
 
   $dialogClosed;
 
-  constructor(private componentFactoryResolver: ComponentFactoryResolver, private dialog: MdDialog) { }
+  constructor(private componentFactoryResolver: ComponentFactoryResolver, private dialog: MatDialog) { }
 
   ngOnInit() {
   }
@@ -44,7 +46,7 @@ export class BingoTileComponent implements OnInit, AfterViewInit {
     this.$dialogClosed = this.dialog.open(EventModalComponent, {
       width: '400px',
       data: {
-        content: this.event.content,
+        content: this.content.viewContainerRef.element.nativeElement.nextSibling.innerText,
         marked: this.marked
       }
     }).afterClosed().subscribe(result => {
