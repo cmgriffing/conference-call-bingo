@@ -9,7 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "i18n": "ng-xi18n --i18nFormat=xlf"
+    "i18n": "ng-xi18n --i18nFormat=xlf",
+    "serve-i18n": "ng serve --aot --locale cy --i18n-format xlf --i18n-file messages.gibberish.xliff --missing-translation ignore",
+    "build-i18n": "ng build --aot --locale cy --i18n-format xlf --i18n-file messages.gibberish.xliff --missing-translation ignore"
   },
   "private": true,
   "dependencies": {
@@ -30,7 +32,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.1.1",
+    "@angular/cli": "1.4.5",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "2.5.45",

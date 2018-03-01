@@ -1,12 +1,12 @@
-<md-dialog-content>
+<mat-dialog-content>
   <h2 [innerHTML]="data.content"></h2>
-</md-dialog-content>
-<md-dialog-actions fxFlexLayout="row">
+</mat-dialog-content>
+<mat-dialog-actions fxFlexLayout="row">
   <span class="button-wrapper" fxFlex="50">
-    <button md-button md-dialog-close>Cancel</button>
+    <button mat-button mat-dialog-close>Cancel</button>
   </span>
   <span class="button-wrapper" fxFlex="50">
-    <button md-raised-button [md-dialog-close]="true" *ngIf="!data.marked" color="primary">Mark It!</button>
-    <button md-raised-button [md-dialog-close]="false" *ngIf="data.marked" color="primary">Unmark It!</button>
+    <button mat-raised-button [mat-dialog-close]="true" *ngIf="!data.marked" color="primary">Mark It!</button>
+    <button mat-raised-button [mat-dialog-close]="false" *ngIf="data.marked" color="primary">Unmark It!</button>
   </span>
-</md-dialog-actions>
+</mat-dialog-actions>
